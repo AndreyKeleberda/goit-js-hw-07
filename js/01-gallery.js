@@ -1,20 +1,5 @@
 import { galleryItems } from './gallery-items.js'
-// Change code below this line
 
-// galleryItems.map((item) => {
-//   console.log(item)
-//   const template = `<div class="gallery__item">
-//   <a class="gallery__link" href="large-image.jpg">
-//     <img
-//       class="gallery__image"
-//       src=${item.preview}
-//       data-source=${item.original}
-//       alt=${item.description}
-//     />
-//   </a>
-// </div>`
-// return template
-// })
 const galleryWrapper = document.querySelector('.gallery')
 const markUp = galleryItems
   .map(
